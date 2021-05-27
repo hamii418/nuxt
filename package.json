@@ -1,0 +1,27 @@
+{
+  "name": "nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "nuxt-webfontloader": "^1.1.0",
+    "ssr-window": "^3.0.0",
+    "swiper": "^5.4.5",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-scrollto": "^2.20.0"
+  },
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^10.1.1"
+  }
+}
