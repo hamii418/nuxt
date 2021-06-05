@@ -59,9 +59,10 @@
         <section class="mod-block">
           <div class="mod-block__container">
           <h2 class="mod-ttl">このサイトについて</h2>
-          <p class="mod-txt">Nuxt.jsのSSRで実装しています。</p>
+          <p class="mod-txt">Nuxt.jsのSSRで実装しています。インターネットで検索したり、動画で勉強して、完全独学で、Nuxt.jsのサイトを作成しました。</p>
           <h3 class="mod-sub-ttl">主な仕様、大変だったこと</h3>
           <ul class="mod-list">
+            <li class="mod-list__item">Netlifyでサーバーに上げています。</li>
             <li class="mod-list__item">GoogleFontを使用</li>
             <li class="mod-list__item">scssを導入して、開発。バージョンが異なりエラーが出たので、その対応が大変でした。</li>
             <li class="mod-list__item">ハンバーガーメニューは、@click、transition、v-show、class付与を使用し自作</li>
@@ -85,6 +86,14 @@
           <h2 class="mod-ttl">カウントダウン</h2>
           <p class="mod-txt">来月1日までのカウントダウンを作成致しました。countボタンを押すとカウントダウンが始まります。<br>getDate等を使用して、計算しています。</p>
           <nuxt-link to="/date" class="mod-btn">ページへ</nuxt-link>
+          </div>          　　
+        </section>
+
+        <section class="mod-block">
+          <div class="mod-block__container">
+          <h2 class="mod-ttl">api</h2>
+          <p class="mod-txt">jsonplaceholderからapi取得。userIdとtitleをv-forでループしています。</p>
+          <nuxt-link to="/api" class="mod-btn">ページへ</nuxt-link>
           </div>          　　
         </section>
 
